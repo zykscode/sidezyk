@@ -32,7 +32,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'warn',
     'unused-imports/no-unused-imports': 'warn',
     'unused-imports/no-unused-vars': [
       'warn',
