@@ -1,6 +1,4 @@
-import { SiteConfig } from '@/types';
-
-export const siteConfig: SiteConfig = {
+export const siteConfig = {
   name: 'Zykson',
   description: 'A personal blog and portfolio site',
   url: 'https://tx.shadcn.com',
