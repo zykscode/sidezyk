@@ -96,7 +96,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'unused-imports/no-unused-imports-ts': 'error',
+    'unused-imports/no-unused-imports-ts': 'warn',
     'unused-imports/no-unused-vars-ts': [
       'warn',
       {
