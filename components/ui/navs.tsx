@@ -9,7 +9,7 @@ import NavLink from './nav-links';
 
 const Navs = ({ toggle }: { toggle: () => void }) => {
   return (
-    <nav className="text-md bg-yellow-300 uppercase w-1/2 justify-between flex">
+    <nav className="text-md uppercase w-1/2 justify-between flex">
       <div className="flex w-full justify-evenly">
         {navs.map((nav, i) => {
           return <NavLink text={nav} i={i} key={nav} />;

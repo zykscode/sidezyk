@@ -13,7 +13,7 @@ const Header = () => {
     <motion.header
       initial={false}
       animate={isOpen ? 'open' : 'closed'}
-      className="flex bg-yellow-200 justify-between items-center h-18 md:h-20"
+      className="flex justify-between items-center h-18 md:h-20"
     >
       <Breadcrumbs />
 
