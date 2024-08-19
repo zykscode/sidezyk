@@ -55,7 +55,7 @@ module.exports = {
       'warn',
       {
         labelAttributes: ['label'],
-        controlComponents: ['Link, Button'],
+        controlComponents: ['Link', 'Button'],
         ignoreElements: [
           'audio',
           'canvas',
@@ -96,16 +96,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'unused-imports/no-unused-imports-ts': 'warn',
-    'unused-imports/no-unused-vars-ts': [
-      'warn',
-      {
-        vars: 'all',
-        varsIgnorePattern: '^_',
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-      },
-    ],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
   },
