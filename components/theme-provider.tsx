@@ -1,4 +1,3 @@
-/* eslint-disable unused-imports/no-unused-vars-ts */
 'use client';
 
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
